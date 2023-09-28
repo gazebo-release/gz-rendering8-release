@@ -128,7 +128,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Development
  Ogre2 component development files
 
 Package: libgz-rendering8-ogre2
-Architecture: any
+Architecture: amd64 arm64
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same

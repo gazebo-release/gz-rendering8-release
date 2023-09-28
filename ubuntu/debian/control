@@ -18,7 +18,7 @@ Build-Depends: cmake,
                libgz-plugin2-dev,
                libgz-utils2-dev,
                libogre-1.9-dev,
-               libogre-next-2.3-dev,
+               libogre-next-2.3-dev [!armhf],
                libvulkan-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
 Vcs-Git: https://github.com/gazebo-release/gz-rendering8-release
@@ -110,7 +110,7 @@ Depends: libgz-cmake3-dev,
          libgz-common5-graphics-dev,
          libgz-math7-dev,
          libgz-math7-eigen3-dev,
-         libogre-next-2.3-dev,
+         libogre-next-2.3-dev [!armhf],
          libvulkan-dev,
          libgz-plugin2-dev,
          libgz-rendering8-core-dev (= ${binary:Version}),

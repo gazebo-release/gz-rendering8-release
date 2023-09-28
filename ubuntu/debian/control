@@ -102,7 +102,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  Ogre1 component shared library
 
 Package: libgz-rendering8-ogre2-dev
-Architecture: any
+Architecture: amd64 arm64
 Section: libdevel
 Depends: libgz-cmake3-dev,
          libgz-common5-events-dev,

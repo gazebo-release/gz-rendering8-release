@@ -18,7 +18,7 @@ Build-Depends: cmake,
                libgz-plugin2-dev,
                libgz-utils2-dev,
                libogre-1.9-dev,
-               libogre-next-2.3-dev,
+               libogre-next-2.3-dev [!armhf],
                libvulkan-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
 Vcs-Git: https://github.com/gazebo-release/gz-rendering8-release
@@ -102,7 +102,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  Ogre1 component shared library
 
 Package: libgz-rendering8-ogre2-dev
-Architecture: any
+Architecture: amd64 arm64
 Section: libdevel
 Depends: libgz-cmake3-dev,
          libgz-common5-events-dev,
@@ -110,7 +110,7 @@ Depends: libgz-cmake3-dev,
          libgz-common5-graphics-dev,
          libgz-math7-dev,
          libgz-math7-eigen3-dev,
-         libogre-next-2.3-dev,
+         libogre-next-2.3-dev [!armhf],
          libvulkan-dev,
          libgz-plugin2-dev,
          libgz-rendering8-core-dev (= ${binary:Version}),
@@ -128,7 +128,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Development
  Ogre2 component development files
 
 Package: libgz-rendering8-ogre2
-Architecture: any
+Architecture: amd64 arm64
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same

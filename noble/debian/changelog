@@ -1,3 +1,9 @@
+gz-rendering8 (8.2.2-1~noble) noble; urgency=medium
+
+  * gz-rendering8 8.2.2-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Mon, 10 Feb 2025 09:09:55 -0600
+
 gz-rendering8 (8.2.1-1~noble) noble; urgency=medium
 
   * gz-rendering8 8.2.1-1 release
